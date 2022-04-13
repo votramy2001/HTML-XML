@@ -26,4 +26,21 @@ HTML: Hyper Text Markup Language – là ngôn ngữ đánh dấu tiêu chuẩn 
         <ins>- Đã chèn văn bản
         <sub>- Văn bản chỉ số
         <sup>- Văn bản siêu cấp
+ XML: Extensible Markup Language - cũng là một ngôn ngữ đánh dấu như HTML, có các cặp thẻ do người dùng tự định nghĩa
+ XML là nơi để lưu trữ và vận chuyển dữ liệu.=> XML là một CSDL dạng nhỏ.
+ -Cấu trúc tập tin XML: giống một cây có gốc và cành lớn cành nhỏ, có thể đổi tên được các thẻ
+    <?xml verson="1.0" encoding="UTF-8> khai báo xml verson và bộ dịch utf
+    <root> có thể đổi tên 
+        <child> 
+            <subchild> Text </subchild>
+            <subchild2> Text </subchild2>
+        </child>
+        <child>
+            <subchild>....</subchild>
+        </child>
+     </root>
+ -Ứng dụng của XML:
+    +> lưu trữ dữ liệu: 1 file XML tương đương 1 table trong MySQL 
+    +> lưu dữ liệu trong công nghệ RSS: RSS là công nghệ dùng để public các thông tin mới trong một website.
+    +> trao đổi thông tin giữa các website với nhau
   
